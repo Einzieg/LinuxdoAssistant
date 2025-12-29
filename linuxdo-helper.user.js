@@ -39,7 +39,7 @@
         headerIcons: '.d-header-icons',
         headerDropdown: 'ul.header-dropdown-toggle',
         header: 'header.d-header',
-        commentList: 'html.desktop-view.not-mobile-device.text-size-normal.no-touch.discourse-no-touch',
+        commentList: 'html.desktop-view.not-mobile-device.text-size-normal.touch.discourse-touch',
         rawLinks: '.raw-link'
     };
 
@@ -576,3 +576,4 @@
         window.addEventListener('load', main);
     }
 })();
+
